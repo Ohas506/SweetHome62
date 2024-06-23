@@ -43,7 +43,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 89,
+        "pk": 81,
         "fields": {
             "first_name": "Democratic party ",
             "last_name": "Of Alabama",
@@ -135,7 +135,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 81,
+        "pk": 87,
         "fields": {
             "first_name": "",
             "last_name": "Independent",
@@ -164,7 +164,7 @@ campaignTrail_temp.running_mate_json = [
         "pk": 110673,
         "fields": {
             "candidate": 77,
-            "running_mate": 89
+            "running_mate": 81
         }
     }
 ]
