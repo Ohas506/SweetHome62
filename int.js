@@ -69,8 +69,8 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 153,
         "fields": {
-            "first_name": "Ryan",
-            "last_name": "deGraffenried",
+            "first_name": "RyanDe",
+            "last_name": "Graffenried",
             "election": 15,
             "party": "Alabama Democratic Party",
             "state": "Alabama",
