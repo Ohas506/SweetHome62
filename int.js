@@ -209,7 +209,10 @@ document.getElementById("header").src = "https://i.imgur.com/EMGFKOc.jpeg";
 document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#E8FBFF!important;}</style>";
+quotes = ["I advocate hatred of no man, because hate will only compound the problems facing the South."]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
 
+corrr=`\n<h2>Sweet Home</h2><font id='wittyquote' size='4' color='white'><i><em>`+customquote+`</em></i></font>`
 //#endcode
 // Initialise custom music
 
@@ -424,24 +427,16 @@ var soundtracks = {
     name: "Sweet Home Alabama",
     tracklist: [
       {
-        "name": "Burning Bridges",
-        "url": "https://cdn.discordapp.com/attachments/1194028168529592410/1194379724508627056/y2mate.is_-_Mike_Curb_Congregation_Burning_Bridges_with_lyrics_-qXIjE_gDw94-128k-1704832669.mp3?ex=65b023cc&is=659daecc&hm=629a0cb8eb5ac452af2f47bc631fc52ff084474273495cf679f1dc8efb119d87&"
+        "name": "Sweet Home Alabama",
+        "url": "https://audio.jukehost.co.uk/LXtYlhjuJZQtXWbaKafFkfwkTIk4hAbv"
       },
       {
-        "name": "For What Its Worth",
-        "url": "https://cdn.discordapp.com/attachments/1194028168529592410/1194380319789432882/y2mate.is_-_Buffalo_Springfield_For_What_It_s_Worth_Official_Audio_-80_39eAx3z8-128k-1704832828.mp3?ex=65b0245a&is=659daf5a&hm=d610b18024e310b3b18ee71c91f800febd758141193928a102bce8165f7036b5&"
+        "name": "Stand Up for America!",
+        "url": "https://audio.jukehost.co.uk/UcVNk6rxVDMEZ6W2Xedy6hE2MIO0NsNz"
       },
       {
-        "name": "Sink the Bismark",
-        "url": "https://cdn.discordapp.com/attachments/1194028168529592410/1194380640775323648/y2mate.is_-_sink_the_bismarck___johnny_horton-M1Ufc2hI4FM-128k-1704832915.mp3?ex=65b024a7&is=659dafa7&hm=e403deb7d98974d4b47084c66ee2f2dc60369e465e55a8cd546817cd38092a77&"
-      },
-      {
-        "name": "Folsom Prison Blues",
-        "url": "https://cdn.discordapp.com/attachments/1194028168529592410/1194381031608963172/y2mate.is_-_Johnny_Cash_Folsom_Prison_Blues_Official_Audio_-AeZRYhLDLeU-128k-1704832993.mp3?ex=65b02504&is=659db004&hm=5508f352bc74a942faa8aacb670451c258d0748993160bdbb322268fbc76b5ba&"
-      },
-      {
-        "name": "Swinging on a Star",
-        "url": "https://cdn.discordapp.com/attachments/1194028168529592410/1194381485747228834/y2mate.is_-_Bing_Crosby_Swinging_on_a_star-rATftJiWdkw-128k-1704833116.mp3?ex=65b02570&is=659db070&hm=fbb30e7b0d2e53109e1d244165a1def0d523a2c1d51ab340ca7fdda3c4a07463&"
+        "name": "George Wallace",
+        "url": "https://audio.jukehost.co.uk/H6aoPjV6KDIAdQNlLMfh7q5J3lmjKEn1"
       },
    ]
    }	  
